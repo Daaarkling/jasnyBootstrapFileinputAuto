@@ -40,20 +40,7 @@
 				thumbnail = '<span style="line-height:' + settings.height + 'px; text-align: center; font-weight: bold; font-size: 23px;">' + settings.message + '</span>';		
 			}
 
-			$elem.replaceWith('\
-					<div class="fileinput fileinput-new" data-provides="fileinput">\n\
-						<div class="fileinput-new thumbnail" style="width:' + settings.width + 'px; height:' + settings.height + 'px;">\n\
-							' + thumbnail + ' \n\
-						</div>\n\
-					<div class="fileinput-preview fileinput-exists thumbnail" style="max-width: ' + settings.width + 'px; max-height: ' + settings.height + 'px;"></div>\n\
-					<div>\n\
-						<span class="btn btn-default btn-file">\n\
-						<span class="fileinput-new">' + settings.btnSelect + '</span>\n\
-						<span class="fileinput-exists">' + settings.btnChange + '</span>' + input + '</span>\n\
-						<a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">' + settings.btnRemove + '</a>\n\
-					</div>\n\
-				</div>'
-			);
+			$elem.replaceWith('<div class="fileinput fileinput-new" data-provides="fileinput"><div class="fileinput-new thumbnail" style="width:' + settings.width + 'px; height:' + settings.height + 'px;">' + thumbnail + '</div><div class="fileinput-preview fileinput-exists thumbnail" style="max-width: ' + settings.width + 'px; max-height: ' + settings.height + 'px;"></div><div><span class="btn btn-default btn-file"><span class="fileinput-new">' + settings.btnSelect + '</span><span class="fileinput-exists">' + settings.btnChange + '</span>' + input + '</span><a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">' + settings.btnRemove + '</a></div></div>');
 
 		});
 	};
