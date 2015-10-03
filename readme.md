@@ -1,4 +1,4 @@
-# JASNY BOOTSTRAP FILE INPUT AUTO CHANGER
+# JASNY BOOTSTRAP FILE INPUT AUTO
 
 Fileinput with image view. Automatically change input file into [Jasny Bootstrap Fileinput](http://www.jasny.net/bootstrap/javascript/#fileinput) which is an extension to vanilla [Bootsrap 3](http://getbootstrap.com/). See example index.html.
 
