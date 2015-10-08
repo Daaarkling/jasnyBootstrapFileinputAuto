@@ -34,7 +34,7 @@
 				thumbnail = '<img src="' + settings.defaultImage + '">';			
 			}
 			else if (settings.thumbnail) {
-				thumbnail = '<img src="http://fakeimg.pl/' + settings.height + 'x' + settings.width + '/?text=' + settings.message + '">';			
+				thumbnail = '<img src="http://fakeimg.pl/' + settings.width + 'x' + settings.height + '/?text=' + settings.message + '">';			
 			} 
 			else {
 				thumbnail = '<span style="line-height:' + settings.height + 'px; text-align: center; font-weight: bold; font-size: 23px;">' + settings.message + '</span>';		
